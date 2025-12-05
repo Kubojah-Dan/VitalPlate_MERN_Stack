@@ -1,0 +1,7 @@
+# Ignore environment files
+.env
+
+# Ignore docker compose files
+docker-compose.yml
+
+docker-decompose.yml
