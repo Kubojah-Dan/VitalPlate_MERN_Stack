@@ -51,10 +51,31 @@ VitalPlate is an intelligent, interactive 🧠🍱 meal planning platform design
 
 ## 📂 Project Structure
 
+vital-plate/
+├── docker-compose.yml
+├── server/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── server.js (Main Logic)
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Recipe.js
+└── client/
+    ├── Dockerfile
+    ├── package.json
+    ├── vite.config.js
+    ├── index.html
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── index.css
+        ├── context/
+        │   └── AuthContext.jsx
+        └── pages/
+            ├── Login.jsx
+            ├── Register.jsx
+            └── Dashboard.jsx
 
-
-
----
 
 ## 🚀 Getting Started
 
@@ -110,10 +131,6 @@ http://localhost:5173
 Pull requests and feature contributions are welcome!
 Open an issue to suggest improvements or report bugs.
 
-📜 License
-
-This project is licensed under the MIT License.
-
 👤 Author : Kuboja Daniel
 
 VitalPlate Development
@@ -127,12 +144,3 @@ If you like this project, please consider giving it a GitHub star ⭐ — it enc
 VitalPlate’s mission:
 “To simplify healthy eating for individuals with specific health needs through smart, personalized meal planning.” 💙
 
-
----
-
-You can now **paste this directly into VS Code** as your `README.md` and push to GitHub 🟢
-
-Would you like:
-✔ VitalPlate logo design?  
-✔ Preview images/screenshot layout?  
-✔ A live demo section or badges for GitHub?
